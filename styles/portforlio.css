@@ -1,0 +1,256 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 105px;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  color: #272142;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 20px 20px 160px 20px;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.btn-primary {
+  background-color: var(--branding-color);
+  border-color: var(--branding-color);
+  font-size: 25px;
+  line-height: 20px;
+  padding: 22px 33px;
+  border-radius: 5px;
+  font-family: var(--default-font-family);
+}
+
+.btn-secondary {
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 18px 30px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
+  font-family: var(--default-font-family);
+}
+
+.btn-secondary:hover {
+  color: white;
+  border-color: var(--branding-color);
+  background-color: var(--branding-color) !important;
+  font-size: 20px;
+  padding: 18px 30px;
+  font-family: var(--default-font-family);
+}
+
+.projects {
+  margin: 60px 80px;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+  font-family: var(--default-font-family);
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 67px;
+  font-family: var(--heading-font-family);
+}
+
+.project-description {
+  text-align: left;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  opacity: 70%;
+}
+
+.project-box {
+  margin-top: 65px;
+}
+
+.intro {
+  margin-top: 100px;
+}
+
+.content-container {
+  padding: 20px 20px 160px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 22px;
+  font-family: var(--default-font-family);
+}
+
+.content-container p {
+  text-align: left;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.caption {
+  font-size: 16px;
+}
+.logo {
+  height: 42px;
+}
+nav {
+  margin: 0 15px 40px 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 17px;
+  font-family: var(--default-font-family);
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+.active {
+  color: var(--branding-color);
+}
+
+.about-nav {
+  margin-top: 15px;
+  margin-right: 37px;
+}
+
+.index-nav {
+  margin-top: 20px;
+  margin-right: 37px;
+}
+
+@media (max-width: 900px) {
+  .project-box {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  .hero p {
+    font-size: 28px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .intro {
+    margin: 3px !important;
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn-secondary {
+    font-size: 16px;
+  }
+
+  .project-box {
+    margin-top: 0;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+  .content-container p {
+    text-align: center;
+  }
+
+  .content-container h1 {
+    font-size: 47px;
+  }
+
+  nav a {
+    font-size: 13px;
+    margin-left: 6px;
+  }
+  nav {
+    margin-right: 15px;
+  }
+
+  .logo {
+    position: relative;
+    left: -30px;
+  }
+
+  .headshot {
+    width: 360px;
+  }
+
+  .caption {
+    margin-right: 48px;
+  }
+
+  .about-nav {
+    margin-top: 0;
+  }
+
+  .index-nav {
+    margin-top: 0;
+  }
+}
