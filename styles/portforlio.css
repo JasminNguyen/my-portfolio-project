@@ -187,17 +187,15 @@ footer .contact-box {
 
 footer .contact-me-button {
   margin-top: 25px;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 footer h4 {
   font-size: 48px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 footer .contact-box p {
-  position: relative;
-  left: -20px;
   color: grey;
 }
 @media (max-width: 900px) {
@@ -294,14 +292,18 @@ footer .contact-box p {
 
   footer h4 {
     font-size: 30px;
+    margin: 0;
   }
 
   footer p {
     font-size: 10px;
+    position: relative;
+    left: -30px;
   }
 
   footer .contact-me-button {
     font-size: 15px;
     padding: 10px 20px;
+    margin-right: 0;
   }
 }
