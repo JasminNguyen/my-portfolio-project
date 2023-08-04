@@ -198,6 +198,10 @@ footer h4 {
 footer .contact-box p {
   color: grey;
 }
+
+p .open-source {
+  font-size: 10px;
+}
 @media (max-width: 900px) {
   .project-box {
     padding: 0;
@@ -251,6 +255,9 @@ footer .contact-box p {
 
   .content-container h1 {
     font-size: 47px;
+  }
+  p .open-source {
+    font-size: 8px;
   }
 
   nav a {
