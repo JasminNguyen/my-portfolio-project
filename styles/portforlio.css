@@ -199,8 +199,9 @@ footer .contact-box p {
   color: grey;
 }
 
-p .open-source {
-  font-size: 10px;
+.open-source {
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 @media (max-width: 900px) {
   .project-box {
@@ -256,8 +257,8 @@ p .open-source {
   .content-container h1 {
     font-size: 47px;
   }
-  p .open-source {
-    font-size: 8px;
+  .open-source {
+    font-size: 10px;
   }
 
   nav a {
